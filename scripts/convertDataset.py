@@ -25,12 +25,23 @@ def main():
     paragraphs = extractText(args.sourceFile)
     paragraphChunks = []
     total_tokens = 0
+    seen_chunks = set()  # Track seen content to prevent duplicates
     
-    for i in range(len(paragraphs)-1):
-        chunk = paragraphs[i].strip()
-        if len(chunk) > 100:
-            paragraphChunks.append(chunk)
-            total_tokens += count_tokens(chunk)
+    # Process paragraphs in pairs, stepping by 2 to avoid overlap
+    for i in range(0, len(paragraphs)-1, 2):
+        para1 = paragraphs[i].strip()
+        para2 = paragraphs[i+1].strip() if i+1 < len(paragraphs) else ""
+        
+        # Only proceed if both paragraphs have reasonable content
+        if len(para1) > 50 and len(para2) > 50:
+            chunk = para1 + "\n\n" + para2
+            
+            # Check for duplicates using a hash of the content
+            chunk_hash = hash(chunk.lower().strip())
+            if chunk_hash not in seen_chunks:
+                paragraphChunks.append(chunk)
+                seen_chunks.add(chunk_hash)
+                total_tokens += count_tokens(chunk)
     
     numberOfExamples = len(paragraphChunks)
     print(f'Got {numberOfExamples} examples from text. Total training tokens: {total_tokens:,}')
