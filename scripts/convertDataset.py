@@ -27,7 +27,7 @@ def main():
     total_tokens = 0
     
     for i in range(len(paragraphs)-1):
-        chunk = paragraphs[i].strip() + '\n\n' + paragraphs[i+1].strip()
+        chunk = paragraphs[i].strip()
         if len(chunk) > 100:
             paragraphChunks.append(chunk)
             total_tokens += count_tokens(chunk)
