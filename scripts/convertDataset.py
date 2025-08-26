@@ -53,7 +53,7 @@ def main():
         }
         trainingData.append(example)
     
-    with open(f'training.jsonl', 'a', encoding='UTF-8') as f:
+    with open(f'eldritch-text-corpus.jsonl', 'a', encoding='UTF-8') as f:
         for example in trainingData:
             f.write(json.dumps(example, ensure_ascii=False) + '\n')
 
