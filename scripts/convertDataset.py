@@ -49,9 +49,7 @@ def main():
     trainingData = []
     for chunk in paragraphChunks:
         example = {
-            "messages": [
-                {"role": "assistant", "content": chunk}
-            ],
+            "text": chunk,
             "source_file": source_filename  # Add the filename here
         }
         trainingData.append(example)
