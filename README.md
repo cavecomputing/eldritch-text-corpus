@@ -1,3 +1,3 @@
 # eldritch-text-corpus
 
-*627,885~ tokens*
+*246,106~ tokens*
