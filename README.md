@@ -2,6 +2,7 @@
 > *❝The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents...❝*   
 > — **Howard Phillips Lovecraft**
 
+**Version**: *v0.3*<br>
 *246,106~ tokens*
 
 ---
