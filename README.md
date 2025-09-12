@@ -9,7 +9,7 @@
 ![image](cthulhu.png)
 
 ## Dataset
-*This dataset is comprised of two paragraph excerpts from the below stories, novels, and novellas.*   
+*This dataset is comprised of two paragraph excerpts from the below stories, novels, and novellas. Please note: these are not complete texts and have had various sections removed or modified that are not conducive to an LLM dataset.*   
 | Howard Phillips Lovecraft |
 |-------|
 | Call of Cthulhu |
