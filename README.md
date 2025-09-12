@@ -26,3 +26,5 @@
 | The Temple |
 | The Thing on the Doorstep |
 | The Whisperer in Darkness |
+
+Original GitHub repo located here if you wanna get more personal with the data and scripts I use (make cool things with it!): https://github.com/cavecomputing/eldritch-text-corpus
