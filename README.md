@@ -3,7 +3,8 @@
 > — **Howard Phillips Lovecraft**
 
 **Version**: *v0.4*<br>
-*291,986~ tokens*
+*291,986~ tokens*<br>
+*GOAL: 500,000~ tokens*<br>
 
 ---
 ![image](cthulhu.png)
