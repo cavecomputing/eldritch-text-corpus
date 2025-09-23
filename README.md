@@ -28,3 +28,22 @@
 | The Whisperer in Darkness |
 
 Original GitHub repo located here if you wanna get more personal with the data and scripts I use (make cool things with it!): https://github.com/cavecomputing/eldritch-text-corpus
+
+## Usage
+
+Convert text files to training dataset:
+
+```bash
+python scripts/convertDataset.py
+```
+
+Options:
+- `--texts-dir` - Path to texts directory (default: texts)
+- `--authors` - Specific author folders to include (default: all)
+- `--output` - Output file name (default: eldritch-text-corpus.jsonl)
+- `--min-length` - Minimum character length per paragraph (default: 50)
+
+Example:
+```bash
+python scripts/convertDataset.py --authors "Howard Phillips Lovecraft" --output my-dataset.jsonl
+```
