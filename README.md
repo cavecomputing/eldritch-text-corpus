@@ -14,9 +14,9 @@
 |-------|-------|
 | Call of Cthulhu | The Wendigo |
 | Shadow over Innsmouth | The Willows |
-| At The Mountains of Madness | The Empty House |
-| Cool Air | A Haunted Island |
-| The Colour of Space | A Case of Eavesdropping |
+| At The Mountains of Madness |
+| Cool Air |
+| The Colour of Space |
 | The Dreams in the Witch House |
 | The Dunwich Horror |
 | The Festival |
