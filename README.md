@@ -2,10 +2,12 @@
 > *❝The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents...❝*   
 > — **Howard Phillips Lovecraft**
 
-**Version**: *v0.4*<br>
-*291,986~ tokens*<br>
-*GOAL: 500,000~ tokens*<br>
-
+```yaml
+eldritch-text-corpus:
+  version: v0.4a
+  tokens: 291,986~ tokens
+  goal: 500,000~ tokens
+```
 ---
 ![image](cthulhu.png)
 
@@ -28,7 +30,7 @@
 | The Thing on the Doorstep |
 | The Whisperer in Darkness |
 
-Original GitHub repo located here if you wanna get more personal with the data and scripts I use (make cool things with it!): https://github.com/cavecomputing/eldritch-text-corpus
+Original GitHub repo located here if you wanna get more personal with the data and scripts I use: https://github.com/cavecomputing/eldritch-text-corpus
 
 ## Usage
 
